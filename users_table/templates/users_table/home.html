@@ -1,0 +1,30 @@
+{% extends "users_table/base.html" %}
+
+{% block content %}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sobrenome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Data de nascimento</th>
+            <th scope="col">Email</th>
+            <th scope="col">Apelido</th>
+            <th scope="col">Observacao</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+        <tr>
+            <td>{{ user.f_name }}</td>
+            <td>{{ user.l_name }}</td>
+            <td>{{ user.age }}</td>
+            <td>{{ user.b_date }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.nickname }}</td>
+            <td>{{ user.observation }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock content %}

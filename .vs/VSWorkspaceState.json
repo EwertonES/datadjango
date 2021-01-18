@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\django_project",
+    "\\users_table",
+    "\\users_table\\static",
+    "\\users_table\\static\\users_table",
+    "\\users_table\\templates",
+    "\\users_table\\templates\\users_table"
+  ],
+  "SelectedNode": "\\users_table\\templates\\users_table\\base.html",
+  "PreviewInSolutionExplorer": false
+}
